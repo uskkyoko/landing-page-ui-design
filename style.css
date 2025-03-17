@@ -18,6 +18,7 @@ body {
     height: 50px;
 }
 .nav-links {
+    cursor: pointer;
     margin-left: auto;
     margin-right: 20px; 
     display: flex;
@@ -275,6 +276,7 @@ body {
 }
 
 .membership {
+    height: 650px;
     position: relative;
     padding: 20px;
     text-align: center;
