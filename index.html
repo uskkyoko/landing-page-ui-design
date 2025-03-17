@@ -4,50 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UTC Club</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #4a4a5a;
-            padding: 10px 20px;
-            color: white;
-        }
-        .nav-links {
-            display: flex;
-            gap: 20px;
-        }
-        .hero {
-            height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: left;
-            background-color: #ccc;
-            text-align: center;
-            padding: 20px;
-        }
-        .buttons {
-            margin-top: 20px;
-        }
-        .button {
-            padding: 10px 20px;
-            margin: 10px;
-            border: none;
-            cursor: pointer;
-        }
-        .primary {
-            background-color: white;
-        }
-        .secondary {
-            background-color: #4a4a5a;
-            color: white;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <div class="navbar">
@@ -68,5 +26,47 @@
             <button class="button secondary">Book a court</button>
         </div>
     </div>
+    <div class="directory">
+        <h1>Club Directory</h1>
+        <p>Your Complete Guide to Courts, Programs, and Membership Services</p>
+        <div class="directory-grid">
+            <div class="directory-item">
+                <img src="images/gear.jpg" alt="Gear">
+                <span>Gear</span>
+            </div>
+            <div class="directory-item">
+                <img src="images/groups.jpg" alt="Group Trainings">
+                <span>Group trainings</span>
+            </div>
+            <div class="directory-item">
+                <img src="images/coaches.jpg" alt="Our Coaches">
+                <span>Our coaches</span>
+            </div>
+            <div class="directory-item">
+                <img src="images/courts.jpg" alt="Book a Court">
+                <span>Book a court</span>
+            </div>
+        </div>
+    </div>
+    <div class="club-guide">
+        <div class="guide-container">
+            <div class="heading">
+                <h1>Club Guide</h1>
+                <p>Where Elegance Meets Excellence</p>
+            </div>
+            <div class="guide-content">
+                <div class="guide-video">
+                    <video src="images/Tennis Club tour.mp4" controls></video>
+                </div>
+                <div class="guide-text">
+                    <h2>Your game deserves the best.</h2>
+                    <p>Step into a world of refined tennis. Watch our video tour and discover world-class courts, premium facilities, and an exclusive club experience designed for the elite.</p>
+                    <button class="button secondary">Become a member</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
