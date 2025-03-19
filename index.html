@@ -9,27 +9,36 @@
 </head>
 <body>
 
-    <div class="navbar">
-        <div class="logo">UTC</div>
-        <div class="nav-links">
-            <div>Club Rules</div>
-            <a href="#club_directory">Club Directory</a>
-            <div>Our Coaches</div>
-            <div>Club Guide</div>
-            <div>Become a member</div>
+    <nav class="navbar">
+        <a href="index.html">
+            <img src="images/logo.svg" alt="Logo" width="33">
+        </a>
+        <div class="logo">
+            <a href="index.html">UTC</a>
         </div>
-    </div>
+        <div class="nav-links">
+            <a>Club Rules</a>
+            <a href="#club_directory">Club Directory</a>
+            <a href="#club_guide">Club Guide</a>
+            <a href="#our_coaches">Our Coaches</a>
+            <a href="#membership">Become a member</a>
+        </div>
+    </nav>
 
-    <div class="hero">
+    <section class="hero">
+        <div class="hero-text">
         <h1>Experience Tennis Like Never Before</h1>
         <p>Elite Coaching | Premium Courts | Exclusive Community</p>
         <div class="buttons">
-            <button class="button primary">Become a member</button>
+            <button class="button primary" onclick="location.href='#membership'">Become a member</button>
             <button class="button secondary">Book a court</button>
         </div>
-    </div>
+        </div>
+        <div class="arrow"><a href="#club_directory"><img src="images/arrow.svg" alt="Arrow"></a></div>
+    </section>
+    
 
-    <div class="directory" id="club_directory">
+    <section class="directory" id="club_directory">
         <h1>Club Directory</h1>
         <p>Your Complete Guide to Courts, Programs, and Membership Services</p>
         <div class="directory-grid">
@@ -50,9 +59,9 @@
                 <span>Our coaches</span>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="club-guide">
+    <section class="club-guide" id="club_guide">
         <div class="guide-container">
             <div class="heading">
                 <h1>Club Guide</h1>
@@ -65,15 +74,15 @@
                 <div class="guide-text">
                     <h2>Your game deserves the best.</h2>
                     <p>Step into a world of refined tennis. Watch our video tour and discover world-class courts, premium facilities, and an exclusive club experience designed for the elite.</p>
-                    <button class="button member">Become a member</button>
+                    <button class="button member" onclick="location.href='#membership'">Become a member</button>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <hr class="separator">
 
-    <div class="coaches">
+    <section class="coaches" id="our_coaches">
         <h1>Meet our team</h1>
         <p>Experienced Coaches and Dedicated Staff Committed to Your Success</p>
         <div class="coaches-grid">
@@ -102,10 +111,10 @@
                 <h3>Ahmed</h3>
                 <p>Specializes in advanced techniques and refining player tactics.</p>
             </div>
-    </div>
-    </div>
+        </div>
+    </section>
 
-    <div class="membership">
+    <section class="membership" id="membership">
         <h1>Become a member</h1>
         <p>Elevate Your Game—Become a Member Today</p>
         <form class="cta-form">
@@ -115,19 +124,23 @@
             <input type="text" placeholder="Enter your address">
             <button class="button cta">Submit</button>
         </form>
-    </div>
+    </section>
 
-    <div class="footer">
-        <div class="footer-logo">UTC</div>
-        <div class="footer-links">
-            <div>Club Rules</div>
-            <div>Club Directory</div>
-            <div>Our Coaches</div>
-            <div>Club Guide</div>
-            <div>Become a member</div>
-        </div>
-        <p>Copyright @2025</p>
+    <footer class="footer">
+        <div class="footer-logo">
+        <a href="#">
+            <img src="images/logo.svg" alt="Logo" width="100">
+        </a>
     </div>
+        <div class="footer-logo-text"><a href="#">UTC</a></div>
+        <div class="socials-grid">
+            <a href="#"><img src="images/Website.svg" alt="Website"></a>
+            <a href="#"><img src="images/Instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="images/Facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="images/Maps.svg" alt="Maps"></a>
+        </div>
+        <p>Copyright Uliana Sova @2025 | Portfolio porpouse only</p>
+    </footer>
 
 </body>
 </html>
