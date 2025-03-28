@@ -6,7 +6,12 @@ body {
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
 }
-.hero h1, .directory h1, .guide-text h1, .heading h1, .coaches h1, .membership h1 {
+.hero h1, 
+.directory h1, 
+.guide-text h1, 
+.heading h1, 
+.coaches h1, 
+.membership h1 {
     font-family: 'Merriweather', serif;
     font-size: 40px;
     margin-bottom: 10px;
