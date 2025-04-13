@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UTC Club</title>
+
+    <meta name="description" content="Experience tennis like never before at UTC Tennis Club.
+    Book indoor or outdoor tennis courts, join group or private lessons for kids and adults, and become a member today.">
+
+    <meta name="keywords" content="Tennis, Club, Courts, Coaching, Membership, Training, Group Lessons, Private Lessons,
+     tennis court, sport, tennis club, sportlife, play tennis, play tennis near me, court hire tennis, book a court tennis,
+    book a tennis court, book a tennis court near me, tennis group, tennis group classes, indoor tennis courts,
+    outdoor tennis courts, best tennis club, tennis membership, membership tennis, membership tennis club,
+    kids tennis lessons, kids tennis near me, adult tennis lessons, learn tennis, learn tennis near me,
+    join a tennis club near me, tennis court reservation, tennis court rental, tennis court rent,
+    tennis court booking, Experience tennis like never before, UTC, UTC tennis club">
+    
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
+    
     <nav class="navbar">
-        <a href="index.html">
-            <img src="images/logo.svg" alt="Logo" width="33">
-        </a>
         <div class="logo">
-            <a href="index.html">UTC</a>
+            <a href="index.html">
+                <img src="images/logo.svg" alt="Tennis court logo" width="33">
+            </a>
+                <a href="index.html">UTC</a>
         </div>
         <div class="nav-links">
             <a href="info.html">Club Rules</a>
@@ -25,13 +38,14 @@
         </div>
         <div class="burger" id="burger">
             <img src="images/burger.svg" alt="Menu" width="30">
-        </div>
-            
+        </div>       
     </nav>
-
+  
+<main>
     <section class="hero">
         <div class="hero-text">
-        <h1>Experience Tennis Like Never Before</h1>
+        <h1>UTC Tennis Club</h1>
+        <h2>Experience Tennis Like Never Before</h2>
         <p>Elite Coaching | Premium Courts | Exclusive Community</p>
         <div class="buttons">
             <button class="button primary" onclick="location.href='#membership'">Become a member</button>
@@ -43,24 +57,31 @@
     
 
     <section class="directory" id="club_directory">
-        <h1>Club Directory</h1>
+        <h2>Club Directory</h2>
         <p>Your Complete Guide to Courts, Programs, and Membership Services</p>
         <div class="directory-grid">
+
             <div class="directory-item gear">
-                    <img src="images/gear.jpg" alt="Gear" target="_blank" onclick="location.href='//www.wilson.com/en-us/blog/tennis/how-tos/how-choose-tennis-racket'">
-    
+                    <a href="//www.wilson.com/en-us/blog/tennis/how-tos/how-choose-tennis-racket" target="_blank">
+                        <img src="images/gear.jpg" alt="Gear">
+                    </a>
                     <span>Gear</span>
             </div>  
+
             <div class="directory-item court"> 
                     <img src="images/courts.jpg" alt="Book a Court">
                     <span>Book a court</span>
             </div>
+
             <div class="directory-item training">
                 <img src="images/groups.jpg" alt="Group Trainings" onclick="location.href='group.html'">
                 <span>Group trainings</span>
             </div>
+
             <div class="directory-item coaching">
-                <img src="images/coaches.jpg" alt="Our Coaches" onclick="location.href='//www.forbes.com/councils/forbescoachescouncil/2024/01/24/five-key-questions-to-choose-the-right-coach/'" target="_blank">
+                <a href="//www.forbes.com/councils/forbescoachescouncil/2024/01/24/five-key-questions-to-choose-the-right-coach/" target="_blank">
+                    <img src="images/coaches.jpg" alt="Coaches">
+                </a>
                 <span>Choose a coach</span>
             </div>
         </div>
@@ -69,15 +90,15 @@
     <section class="club-guide" id="club_guide">
         <div class="guide-container">
             <div class="heading">
-                <h1>Club Guide</h1>
+                <h2>Club Guide</h2>
                 <p>Where Elegance Meets Excellence</p>
             </div>
             <div class="guide-content">
                 <div class="guide-video">
-                    <video src="images/Tennis Club tour.mp4" controls></video>
+                    <video src="images/Tennis Club tour.mp4" controls alt="Club tour"></video>
                 </div>
                 <div class="guide-text">
-                    <h2>Your game deserves the best.</h2>
+                    <h3>Your game deserves the best.</h3>
                     <p>Step into a world of refined tennis. Watch our video tour and discover world-class courts, premium facilities, and an exclusive club experience designed for the elite.</p>
                     <button class="button member" onclick="location.href='#membership'">Become a member</button>
                 </div>
@@ -88,7 +109,7 @@
     <hr class="separator">
 
     <section class="coaches" id="our_coaches">
-        <h1>Meet our team</h1>
+        <h2>Meet our team</h2>
         <p>Experienced Coaches and Dedicated Staff Committed to Your Success</p>
         <div class="coaches-grid">
             <div class="coach">
@@ -120,7 +141,7 @@
     </section>
 
     <section class="membership" id="membership">
-        <h1>Become a member</h1>
+        <h2>Become a member</h2>
         <p>Elevate Your Game—Become a Member Today</p>
         <form class="cta-form">
             <input type="text" placeholder="Enter your name">
@@ -130,11 +151,12 @@
             <button class="button cta">Submit</button>
         </form>
     </section>
+</main>
 
     <footer class="footer">
         <div class="footer-logo">
         <a href="#">
-            <img src="images/logo.svg" alt="Logo" width="100">
+            <img src="images/logo.svg" alt="Tennis court logo" width="100">
         </a>
     </div>
         <div class="footer-logo-text"><a href="#">UTC</a></div>

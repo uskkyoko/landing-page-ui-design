@@ -15,6 +15,13 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+.logo{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -163,7 +170,7 @@ body {
 .group-item:hover{
     transform:translateY(-5px);
 }
-.group h1{
+.group h2{
     font-family: 'Merriweather', serif;
     font-size: 32px;
     color : white;;
