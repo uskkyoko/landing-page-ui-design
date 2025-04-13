@@ -34,8 +34,6 @@ best tennis club
 
 tennis court rent
 
-UTC tennis club
-
 tennis court near me
 
 book a court tennis
